@@ -50,7 +50,7 @@ const user = useSelector((state) => state.user.currentUser);
  </Switch>
     <Footer/>
     </Router>
-  // </AuthContext.Provider>
+
 
  
   );

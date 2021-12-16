@@ -58,11 +58,12 @@ const Success = () => {
   <Wrapper>
     <h2 style={{marginRight:50,marginLeft:50}}>Youre Order will be deliverd within two days</h2>
     <br/>
-   <h3 style={{ marginRight: 50 ,marginLeft:50}} >   {orderId
-        ? `Order has been created successfully.
-         Your order number is   ${orderId}`
-        : `Successfull. Your order is being prepared...`}</h3>
- 
+
+    <h3 style={{ marginRight: 50 ,marginLeft:50}} >  
+     {orderId
+        ? `Order has been created successfully`
+                : `Sorry! Failed to create your Order .
+                Please Contact Us ... `}</h3>
       <button  style={{ 
  padding: 10, marginTop: 20 }}><Link style={{   color:"inherit",
  textDecoration: "none",
